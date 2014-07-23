@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145EE8A21980126D007AD702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8A11980126D007AD702 /* Foundation.framework */; };
+		145EE8A41980126D007AD702 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8A31980126D007AD702 /* CoreGraphics.framework */; };
+		145EE8A61980126D007AD702 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8A51980126D007AD702 /* UIKit.framework */; };
+		145EE8AC1980126D007AD702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 145EE8AA1980126D007AD702 /* InfoPlist.strings */; };
+		145EE8AE1980126D007AD702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE8AD1980126D007AD702 /* main.m */; };
+		145EE8B21980126D007AD702 /* lalaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE8B11980126D007AD702 /* lalaAppDelegate.m */; };
+		145EE8B51980126D007AD702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145EE8B31980126D007AD702 /* Main.storyboard */; };
+		145EE8B81980126D007AD702 /* lalaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE8B71980126D007AD702 /* lalaViewController.m */; };
+		145EE8BA1980126D007AD702 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145EE8B91980126D007AD702 /* Images.xcassets */; };
+		145EE8C11980126D007AD702 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8C01980126D007AD702 /* XCTest.framework */; };
+		145EE8C21980126D007AD702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8A11980126D007AD702 /* Foundation.framework */; };
+		145EE8C31980126D007AD702 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145EE8A51980126D007AD702 /* UIKit.framework */; };
+		145EE8CB1980126D007AD702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 145EE8C91980126D007AD702 /* InfoPlist.strings */; };
+		145EE8CD1980126D007AD702 /* HeliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE8CC1980126D007AD702 /* HeliTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		145EE8C41980126D007AD702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145EE8961980126D007AD702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145EE89D1980126D007AD702;
+			remoteInfo = Heli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145EE89E1980126D007AD702 /* Heli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145EE8A11980126D007AD702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		145EE8A31980126D007AD702 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		145EE8A51980126D007AD702 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		145EE8A91980126D007AD702 /* Heli-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heli-Info.plist"; sourceTree = "<group>"; };
+		145EE8AB1980126D007AD702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		145EE8AD1980126D007AD702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		145EE8AF1980126D007AD702 /* Heli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heli-Prefix.pch"; sourceTree = "<group>"; };
+		145EE8B01980126D007AD702 /* lalaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lalaAppDelegate.h; sourceTree = "<group>"; };
+		145EE8B11980126D007AD702 /* lalaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lalaAppDelegate.m; sourceTree = "<group>"; };
+		145EE8B41980126D007AD702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		145EE8B61980126D007AD702 /* lalaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lalaViewController.h; sourceTree = "<group>"; };
+		145EE8B71980126D007AD702 /* lalaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lalaViewController.m; sourceTree = "<group>"; };
+		145EE8B91980126D007AD702 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		145EE8BF1980126D007AD702 /* HeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145EE8C01980126D007AD702 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		145EE8C81980126D007AD702 /* HeliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeliTests-Info.plist"; sourceTree = "<group>"; };
+		145EE8CA1980126D007AD702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		145EE8CC1980126D007AD702 /* HeliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeliTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145EE89B1980126D007AD702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8A41980126D007AD702 /* CoreGraphics.framework in Frameworks */,
+				145EE8A61980126D007AD702 /* UIKit.framework in Frameworks */,
+				145EE8A21980126D007AD702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145EE8BC1980126D007AD702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8C11980126D007AD702 /* XCTest.framework in Frameworks */,
+				145EE8C31980126D007AD702 /* UIKit.framework in Frameworks */,
+				145EE8C21980126D007AD702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145EE8951980126D007AD702 = {
+			isa = PBXGroup;
+			children = (
+				145EE8A71980126D007AD702 /* Heli */,
+				145EE8C61980126D007AD702 /* HeliTests */,
+				145EE8A01980126D007AD702 /* Frameworks */,
+				145EE89F1980126D007AD702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		145EE89F1980126D007AD702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145EE89E1980126D007AD702 /* Heli.app */,
+				145EE8BF1980126D007AD702 /* HeliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145EE8A01980126D007AD702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				145EE8A11980126D007AD702 /* Foundation.framework */,
+				145EE8A31980126D007AD702 /* CoreGraphics.framework */,
+				145EE8A51980126D007AD702 /* UIKit.framework */,
+				145EE8C01980126D007AD702 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		145EE8A71980126D007AD702 /* Heli */ = {
+			isa = PBXGroup;
+			children = (
+				145EE8B01980126D007AD702 /* lalaAppDelegate.h */,
+				145EE8B11980126D007AD702 /* lalaAppDelegate.m */,
+				145EE8B31980126D007AD702 /* Main.storyboard */,
+				145EE8B61980126D007AD702 /* lalaViewController.h */,
+				145EE8B71980126D007AD702 /* lalaViewController.m */,
+				145EE8B91980126D007AD702 /* Images.xcassets */,
+				145EE8A81980126D007AD702 /* Supporting Files */,
+			);
+			path = Heli;
+			sourceTree = "<group>";
+		};
+		145EE8A81980126D007AD702 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				145EE8A91980126D007AD702 /* Heli-Info.plist */,
+				145EE8AA1980126D007AD702 /* InfoPlist.strings */,
+				145EE8AD1980126D007AD702 /* main.m */,
+				145EE8AF1980126D007AD702 /* Heli-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		145EE8C61980126D007AD702 /* HeliTests */ = {
+			isa = PBXGroup;
+			children = (
+				145EE8CC1980126D007AD702 /* HeliTests.m */,
+				145EE8C71980126D007AD702 /* Supporting Files */,
+			);
+			path = HeliTests;
+			sourceTree = "<group>";
+		};
+		145EE8C71980126D007AD702 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				145EE8C81980126D007AD702 /* HeliTests-Info.plist */,
+				145EE8C91980126D007AD702 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		145EE89D1980126D007AD702 /* Heli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145EE8D01980126D007AD702 /* Build configuration list for PBXNativeTarget "Heli" */;
+			buildPhases = (
+				145EE89A1980126D007AD702 /* Sources */,
+				145EE89B1980126D007AD702 /* Frameworks */,
+				145EE89C1980126D007AD702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heli;
+			productName = Heli;
+			productReference = 145EE89E1980126D007AD702 /* Heli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145EE8BE1980126D007AD702 /* HeliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145EE8D31980126D007AD702 /* Build configuration list for PBXNativeTarget "HeliTests" */;
+			buildPhases = (
+				145EE8BB1980126D007AD702 /* Sources */,
+				145EE8BC1980126D007AD702 /* Frameworks */,
+				145EE8BD1980126D007AD702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145EE8C51980126D007AD702 /* PBXTargetDependency */,
+			);
+			name = HeliTests;
+			productName = HeliTests;
+			productReference = 145EE8BF1980126D007AD702 /* HeliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		145EE8961980126D007AD702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lala;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Heuvel";
+				TargetAttributes = {
+					145EE8BE1980126D007AD702 = {
+						TestTargetID = 145EE89D1980126D007AD702;
+					};
+				};
+			};
+			buildConfigurationList = 145EE8991980126D007AD702 /* Build configuration list for PBXProject "Heli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 145EE8951980126D007AD702;
+			productRefGroup = 145EE89F1980126D007AD702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145EE89D1980126D007AD702 /* Heli */,
+				145EE8BE1980126D007AD702 /* HeliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		145EE89C1980126D007AD702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8BA1980126D007AD702 /* Images.xcassets in Resources */,
+				145EE8AC1980126D007AD702 /* InfoPlist.strings in Resources */,
+				145EE8B51980126D007AD702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145EE8BD1980126D007AD702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8CB1980126D007AD702 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		145EE89A1980126D007AD702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8B21980126D007AD702 /* lalaAppDelegate.m in Sources */,
+				145EE8AE1980126D007AD702 /* main.m in Sources */,
+				145EE8B81980126D007AD702 /* lalaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145EE8BB1980126D007AD702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EE8CD1980126D007AD702 /* HeliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		145EE8C51980126D007AD702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145EE89D1980126D007AD702 /* Heli */;
+			targetProxy = 145EE8C41980126D007AD702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		145EE8AA1980126D007AD702 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145EE8AB1980126D007AD702 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		145EE8B31980126D007AD702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145EE8B41980126D007AD702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		145EE8C91980126D007AD702 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145EE8CA1980126D007AD702 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		145EE8CE1980126D007AD702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		145EE8CF1980126D007AD702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		145EE8D11980126D007AD702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heli/Heli-Prefix.pch";
+				INFOPLIST_FILE = "Heli/Heli-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		145EE8D21980126D007AD702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heli/Heli-Prefix.pch";
+				INFOPLIST_FILE = "Heli/Heli-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		145EE8D41980126D007AD702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heli.app/Heli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heli/Heli-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeliTests/HeliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		145EE8D51980126D007AD702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heli.app/Heli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heli/Heli-Prefix.pch";
+				INFOPLIST_FILE = "HeliTests/HeliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145EE8991980126D007AD702 /* Build configuration list for PBXProject "Heli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145EE8CE1980126D007AD702 /* Debug */,
+				145EE8CF1980126D007AD702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145EE8D01980126D007AD702 /* Build configuration list for PBXNativeTarget "Heli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145EE8D11980126D007AD702 /* Debug */,
+				145EE8D21980126D007AD702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		145EE8D31980126D007AD702 /* Build configuration list for PBXNativeTarget "HeliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145EE8D41980126D007AD702 /* Debug */,
+				145EE8D51980126D007AD702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 145EE8961980126D007AD702 /* Project object */;
+}
